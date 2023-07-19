@@ -29,10 +29,10 @@ def open_file(filepath):
         return infile.read()
 
 
-###     API functions
+###     API functions  gpt-4-0613  gpt-3.5-turbo
 
 
-def chatbot(conversation, model="gpt-4-0613", temperature=0):
+def chatbot(conversation, model="gpt-3.5-turbo", temperature=0):
     max_retry = 7
     retry = 0
     while True:
